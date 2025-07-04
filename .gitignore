@@ -1,3 +1,6 @@
+#gitignore file
+.gitignore
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -34,6 +37,7 @@ Thumbs.db
 # Nextflow work directory
 work/
 .nextflow.log*
+.nextflow/
 
 # Conda environment files
 *.conda
