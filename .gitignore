@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# Data files
+/data/raw/
+/data/processed/
+/results/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Nextflow work directory
+work/
+.nextflow.log*
+
+# Conda environment files
+*.conda
+*.env
+
+# Test outputs
+/tests/__pycache__/
+/tests/*.log
+
+# Ignore metadata if generated
+/metadata/*.tmp
+/metadata/*.log
+
+# Ignore scripts outputs
+/scripts/*.log
+/scripts/*.tmp
+
+# Ignore config backups
+/config/*.bak
+
+# Ignore notebooks outputs
+/notebooks/*.nbconvert.ipynb
+
+

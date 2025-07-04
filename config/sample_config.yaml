@@ -1,0 +1,3 @@
+samples:
+  - id: test_sample
+    fq1: data/raw/test.fastq.gz
